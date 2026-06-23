@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+data/*.json
+
+# Prisma generated client (re-created by `prisma generate`)
+/src/generated/prisma
+
+# SQLite database files (re-created by `prisma migrate dev`)
+*.db
+*.db-journal
